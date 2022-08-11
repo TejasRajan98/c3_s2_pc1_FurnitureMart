@@ -26,3 +26,4 @@ public class FurnitureItemImpl {
             System.out.println("\nDiscounted price: $" + furnitureItem.calculateDiscount());
     }
 }
+//testing commit and push
