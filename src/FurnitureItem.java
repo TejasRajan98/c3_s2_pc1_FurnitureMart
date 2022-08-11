@@ -12,4 +12,8 @@ public class FurnitureItem {
         furnitureUsage = null;
         price = 0;
     }
+    void calculateDiscount(){
+        if(furnitureUsage == "outdoor")
+            price -= price * 5 / 100;
+    }
 }
