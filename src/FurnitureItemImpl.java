@@ -14,9 +14,15 @@ public class FurnitureItemImpl {
         furnitureItem.gradeOfFurniture =  sc.nextLine();
         System.out.println("Enter furniture usage: ");
         furnitureItem.furnitureUsage =  sc.nextLine();
-        System.out.println("Enter furniture price: ");
-        furnitureItem.price =  sc.nextDouble();
-        if(furnitureItem.furnitureUsage == "outdoor")
-            System.out.println("Discounted price: " + furnitureItem.calculateDiscount());
+        furnitureItem.price =  10;
+
+        System.out.println("\nFurniture code: " + furnitureItem.furnitureCode);
+        System.out.println("Furniture type: " + furnitureItem.furnitureType);
+        System.out.println("Furniture grade: " + furnitureItem.gradeOfFurniture);
+        System.out.println("Furniture usage: " + furnitureItem.furnitureUsage);
+        System.out.println("Price: $" + furnitureItem.price);
+
+        if(furnitureItem.furnitureUsage.equals("outdoor"))
+            System.out.println("\nDiscounted price: $" + furnitureItem.calculateDiscount());
     }
 }

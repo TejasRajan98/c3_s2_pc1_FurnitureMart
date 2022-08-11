@@ -1,0 +1,19 @@
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" -javaagent:C:\Users\Tejas\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\lib\idea_rt.jar=51392:C:\Users\Tejas\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\221.6008.13\bin -Dfile.encoding=UTF-8 -classpath "D:\Tejas Work\NIIT\git projects\Course3\Sprint2\c3_s2_pc1_FurnitureMart\out\production\c3_s2_pc1_FurnitureMart" FurnitureItemImpl
+Enter furniture code:
+101
+Enter furniture type:
+table
+Enter grade of furniture:
+grade1
+Enter furniture usage:
+outdoor
+
+Furniture code: 101
+Furniture type: table
+Furniture grade: grade1
+Furniture usage: outdoor
+Price: $10.0
+
+Discounted price: $9.5
+
+Process finished with exit code 0
